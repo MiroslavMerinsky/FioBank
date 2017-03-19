@@ -2,7 +2,7 @@
 	"name": "merinsky/fiobank",
 	"description": "FioBank API",
 	"homepage": "https://github.com/MiroslavMerinsky/FioBank",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"license": "GPL-3.0",
 	"keywords": ["Fio", "Fio bank", "API"],
 	"authors": [
