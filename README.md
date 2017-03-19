@@ -3,6 +3,14 @@ FioBank API
 
 It offers implementation of FioBank API described in the [documentation, ver.1.5.2](https://www.fio.cz/docs/cz/API_Bankovnictvi.pdf).
 
+Installation
+------------
+```console
+composer require merinsky/fiobank
+```
+
+Usage
+-----
 The **getBankStatement** method returns array of bank statements.
 ```php
 define('API_KEY', '...');
