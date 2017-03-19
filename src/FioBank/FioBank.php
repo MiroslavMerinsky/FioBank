@@ -46,9 +46,9 @@ class FioBank {
         foreach ($data['accountStatement']['transactionList']['transaction'] as $item) {
             if (!isset($item['column22']['value']) || !isset($item['column0']['value'])
                || !isset($item['column1']['value']) || !isset($item['column14']['value'])
-               || !isset($item['column2']['value']) || !isset($item['column3']['value'])
-               || !isset($item['column8']['value']))
-               throw new \UnexpectedValueException('Mandatory items are missing in the statement.');
+               || !isset($item['column8']['value'])) {
+                throw new \UnexpectedValueException('Mandatory items are missing in the statement.');
+            }
                 
             $v[] = [
                 'id' => $item['column22']['value'],
